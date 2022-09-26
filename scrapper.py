@@ -6,9 +6,8 @@ from selenium.webdriver.common.by import By # procurar
 from selenium.webdriver.common.keys import Keys # simular cliques e digitação
 
 # Iniciando o Browser
-path_driver = './driver/'
 url = 'https://03felipesampaio.github.io/'
-driver = webdriver.Firefox(path_driver) 
+driver = webdriver.Firefox() 
 driver.get(url)
 
 driver.maximize_window()
